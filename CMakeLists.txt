@@ -42,6 +42,7 @@ file(GLOB_RECURSE PMHEADERS ${CMAKE_SOURCE_DIR}/include/*.h)
 
 set(CMAKE_BINARY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/bin/x86)
 message("###############Qt part###################")
+#Please change the Qt as per your machine location
 set(QT_VERSION_REQ 5.15.2)
 SET(PATH "~/Qt/5.15.2/gcc_64/lib/cmake")
 find_package(Qt5Core ${QT_VERSION_REQ} REQUIRED PATHS ${PATH} )
