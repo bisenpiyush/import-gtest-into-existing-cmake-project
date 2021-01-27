@@ -13,5 +13,5 @@ Here is link of google doc https://github.com/google/googletest/tree/master/goog
 4- make \
 5- make install 
 
-Note: Need a proper internet connection to clone the gtest repo 
+Note: Need a proper internet connection to clone the gtest repo, also please change the Qt lib path in CMakeLists.txt as per your machine 
 
